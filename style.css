@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdf6f0;
+  color: #333;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#date {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #888;
+}
+
+.time-block {
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.hour {
+  width: 80px;
+  background: #e6e6e6;
+  text-align: center;
+  padding: 15px 10px;
+  font-weight: bold;
+}
+
+.task {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 1em;
+  outline: none;
+}
+
+.past {
+  background: #ddd;
+  color: #999;
+}
+
+.present {
+  background: #ffcccc;
+}
+
+.future {
+  background: #ccf2f4;
+}
+
+.save-btn {
+  background: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.save-btn:hover {
+  background: #388e3c;
+}
